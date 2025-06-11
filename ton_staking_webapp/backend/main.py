@@ -10,7 +10,7 @@ import time
 app = FastAPI()
 
 STAKE_FILE = "staking_data.json"
-DEV_WALLET = "EQC_DEV_WALLET_PLACEHOLDER"  # Replace with real dev wallet address
+DEV_WALLET = "0QBEufBFrRrUJsKdy4e9XRugBQeKIzu8joLUA4daHnUk3-9F"  # Replace with real dev wallet address
 REWARD_PERCENTAGE = 0.30
 CYCLE_DURATION = timedelta(seconds=30)  # Simulate 28 days with 30 seconds
 
